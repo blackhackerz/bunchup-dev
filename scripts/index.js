@@ -1,18 +1,3 @@
-// let slide = 0;
-// slider();
-
-// function slider(){
-//     const slideso = document.getElementsByClassName("slides");
-//     let i;
-//     for(i=0; i < slideso.length; i++){
-//         slideso[i].style.display = 'none'
-//     }
-//     slide++
-//     if (slide > slideso.length) {slide = 1}  
-//     slideso[slide-1].style.display = "block";  
-//     setTimeout(slider, 10000)
-// }
-
 var i = 0;
 var txt = `Be prepare to connect with individuals who share your interests and create strong communities with BunchUp.
 Mark your calendars, we'll be launching soon.`;
@@ -25,30 +10,6 @@ function type() {
       setTimeout(type, speed);
     }
   }
-
-  // let slideIndex = 1;
-  // showSlides(slideIndex);
-  
-  // function plusSlides(n) {
-  //   showSlides(slideIndex += n);
-  // }
-  
-  // function currentSlide(n) {
-  //   showSlides(slideIndex = n);
-  // }
-  
-  // function showSlides(n) {
-  //   let i;
-  //   let slides = document.getElementsByClassName("our_team_slide");
-  //   let dots = document.getElementsByClassName("dot");
-  //   if (n > slides.length) {slideIndex = 1}    
-  //   if (n < 1) {slideIndex = slides.length}
-  //   for (i = 0; i < slides.length; i++) {
-  //     slides[i].style.display = "none";  
-  //   }
-  //   slides[slideIndex-1].style.display = "block";  
-  //   dots[slideIndex-1].className += " active";
-  // }
 
 const el = document.querySelector(".content_container");
 
